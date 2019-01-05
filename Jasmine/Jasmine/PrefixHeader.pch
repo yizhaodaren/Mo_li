@@ -1,0 +1,97 @@
+//
+//  PrefixHeader.pch
+//  Jasmine
+//
+//  Created by xujin on 4/14/17.
+//  Copyright © 2017 xujin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+
+//#import "JASwitchDefine.h"
+#import "AvoidCrash.h"
+
+#import "JADefine.h"
+#import "Category.h"
+#import "JARegex.h"
+#import "JAConstans.h"
+#import "JASensorsAnalyticsConstants.h"
+#import "JAAPPManager.h"
+#import "JASensorsAnalyticsConstants.h"
+#import "JASensorsAnalyticsManager.h"
+#import "JAYXMessageManager.h"
+#import "JADetailClickManager.h"
+
+#import "JAColorDefine.h"
+
+#import "JAConfigManager.h"
+#import "JAUserInfo.h"
+#import "JARedPointManager.h"
+
+#import <Masonry.h>
+#import "MBProgressHUD+MJ.h"
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <QIYU_iOS_SDK/QYSDK.h>
+#import "AppDelegateModel.h"
+#import "AppDelegate.h"
+
+#import "JABaseNavigationController.h"
+#import "JABaseViewController.h"
+#import <UMMobClick/MobClick.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+//#import <HyphenateLite/EMClient.h>
+#import "STSystemHelper.h"
+#import "JADIYRefreshHeader.h"
+#import "MMDrawerController.h"
+
+
+#import <SDImageCache.h>
+#import <UIButton+WebCache.h>
+#import <UIImageView+WebCache.h>
+#import <Masonry.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveViewModel/ReactiveViewModel.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+#import "JACameraUtil.h"
+#import "JAHorizonalTableView.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import <JPUSHService.h>
+#import "UIFont+JACategory.h"
+#import <LKDBHelper.h>
+
+// third part
+#import <NIMSDK/NIMSDK.h>
+#import "NIMKit.h"
+#import "UIView+NTES.h"
+#import "UIView+PBExtesion.h"
+
+// api
+//#import "JAStoryApi.h"
+//#import "JAQuestionAnswerApi.h"
+//#import "JAPersonalApi.h"
+//#import "JACommonApi.h"
+#import "JAChatMessageManager.h"
+
+/// model
+#import "JABaseModel.h"
+//#import "JAConsumer.h"
+//#import "JATopicApi.h"
+
+/// category
+#import "NSString+JACategory.h"
+#import "NSMutableArray+Queue.h"
+#import "NSData+GZIP.h"
+
+#import <YTKNetwork.h>
+#endif
+
+
+#endif /* PrefixHeader_pch */

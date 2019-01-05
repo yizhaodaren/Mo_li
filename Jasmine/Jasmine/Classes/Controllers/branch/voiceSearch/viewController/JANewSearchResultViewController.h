@@ -1,0 +1,15 @@
+//
+//  JANewSearchResultViewController.h
+//  Jasmine
+//
+//  Created by 刘宏亮 on 2017/12/7.
+//  Copyright © 2017年 xujin. All rights reserved.
+//
+
+#import "JABaseViewController.h"
+
+@interface JANewSearchResultViewController : JABaseViewController
+@property (nonatomic, strong) NSString *keyWord;
+@property (nonatomic, assign) BOOL clickHistory;
+@property (nonatomic, assign) NSInteger selectIndex;
+@end

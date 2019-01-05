@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="JAMyMedalCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="194"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="194"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dha-WT-5kh">
+                        <rect key="frame" x="5" y="5" width="170" height="127.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Dha-WT-5kh" secondAttribute="height" multiplier="8:6" id="35k-MV-qJ7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjf-bG-SSL">
+                        <rect key="frame" x="5" y="137.5" width="170" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgs-ML-4sh">
+                        <rect key="frame" x="0.0" y="159.5" width="180" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 佩戴中  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTw-Qw-L08">
+                        <rect key="frame" x="133" y="14" width="47" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Dha-WT-5kh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="1Ss-bX-EHY"/>
+                <constraint firstItem="Dha-WT-5kh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="6DF-3P-z4H"/>
+                <constraint firstItem="Pgs-ML-4sh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JXN-7e-7J3"/>
+                <constraint firstItem="tjf-bG-SSL" firstAttribute="top" secondItem="Dha-WT-5kh" secondAttribute="bottom" constant="5" id="RFQ-vU-ZPb"/>
+                <constraint firstAttribute="trailing" secondItem="Pgs-ML-4sh" secondAttribute="trailing" id="Tyf-OP-Jva"/>
+                <constraint firstItem="Pgs-ML-4sh" firstAttribute="top" secondItem="tjf-bG-SSL" secondAttribute="bottom" constant="5" id="Z2V-eC-t5e"/>
+                <constraint firstItem="tjf-bG-SSL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="aK7-DW-3KF"/>
+                <constraint firstItem="nTw-Qw-L08" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="bO3-iV-TuM"/>
+                <constraint firstAttribute="trailing" secondItem="Dha-WT-5kh" secondAttribute="trailing" constant="5" id="kkY-HE-RCH"/>
+                <constraint firstAttribute="trailing" secondItem="tjf-bG-SSL" secondAttribute="trailing" constant="5" id="oHk-In-Fcc"/>
+                <constraint firstAttribute="trailing" secondItem="nTw-Qw-L08" secondAttribute="trailing" id="vAg-M8-LDt"/>
+            </constraints>
+            <size key="customSize" width="180" height="194"/>
+            <connections>
+                <outlet property="detailLable" destination="Pgs-ML-4sh" id="Dlh-7q-Ojp"/>
+                <outlet property="medalImageView" destination="Dha-WT-5kh" id="8ov-1y-Kcz"/>
+                <outlet property="showingTagLable" destination="nTw-Qw-L08" id="Tuk-r5-vL8"/>
+                <outlet property="titleLable" destination="tjf-bG-SSL" id="JVo-qa-LXw"/>
+            </connections>
+            <point key="canvasLocation" x="-6" y="-102"/>
+        </collectionViewCell>
+    </objects>
+</document>

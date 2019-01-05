@@ -1,0 +1,54 @@
+platform :ios, '8.0'
+
+target ‘Jasmine’ do
+
+inhibit_all_warnings!
+
+pod 'Masonry', '~> 1.0.2'
+pod 'ReactiveCocoa','2.1.4'
+pod 'ReactiveViewModel', '0.1.1'
+#pod 'AFNetworking', :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => '3.2.0'
+pod 'AFNetworking', '~> 3.2.0'
+pod 'MJExtension', '~> 3.0.13'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'MBProgressHUD', '~> 1.0.0'
+#pod 'SDCycleScrollView','~> 1.64'
+#pod 'HyphenateLite'
+#pod 'AudioKit'
+pod 'AliyunOSSiOS', '~> 2.7.1'
+pod 'UMengAnalytics', '~> 4.2.4'
+#pod 'StreamingKit'
+#pod 'EZAudioa
+#pod 'FDFullscreenPopGesture', '~> 1.1'
+pod 'JPush', '~> 3.0.5'
+pod 'FMDB', '~> 2.7.2'
+#pod 'RMMapper', '~> 1.1.5'
+
+#pod 'SDWebImage', '~> 3.8.2'
+pod 'SDWebImage', '~> 4.3.3'
+pod 'Toast', '~> 3.0'
+#pod 'SVProgressHUD', '~> 2.0.3'
+pod 'M80AttributedLabel', '~> 1.6.3'
+pod 'TZImagePickerController', '~> 1.7.7'
+
+pod 'QIYU_iOS_SDK', '~> 4.1.0'
+pod 'NIMSDK_LITE', '~> 4.6.0'
+
+#pod 'NIMKit', '~> 1.7.0'
+pod 'LKDBHelper'
+#pod 'CocoaHTTPServer', '~> 2.3'
+pod 'Bugly', '~> 2.5.0'
+
+#v2.5.2新增
+pod 'WechatOpenSDK', '~> 1.8.2'
+
+#2.6.0新增动画组件----2.6.4移除
+#pod 'SVGAPlayer'
+
+#v2.6.4 更新至1.10.0
+pod 'SensorsAnalyticsSDK', :subspecs => ['IDFA']
+
+pod 'YTKNetwork'
+end
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ListContent</key>
+	<array>
+		<dict>
+			<key>content</key>
+			<string>内容表意不明</string>
+			<key>type</key>
+			<string>del_story_comment_content_not</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>内容噪音过大</string>
+			<key>type</key>
+			<string>del_story_comment_noise</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>含低俗色情内容</string>
+			<key>type</key>
+			<string>del_story_comment_pornographic</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>含政治敏感内容</string>
+			<key>type</key>
+			<string>del_story_comment_pornographic</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>含垃圾或广告信息</string>
+			<key>type</key>
+			<string>del_story_comment_pornographic</string>
+		</dict>
+		<dict>
+			<key>content</key>
+			<string>含侮辱性词汇</string>
+			<key>type</key>
+			<string>del_story_comment_pornographic</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

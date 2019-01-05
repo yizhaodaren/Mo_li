@@ -1,0 +1,19 @@
+//
+//  JALabelSelectGroupModel.m
+//  Jasmine
+//
+//  Created by xujin on 2018/5/28.
+//  Copyright © 2018 xujin. All rights reserved.
+//
+
+#import "JALabelSelectGroupModel.h"
+
+@implementation JALabelSelectGroupModel
+
++ (NSDictionary *)mj_objectClassInArray {
+    return @{
+             @"resBody":[JALabelSelectModel class]
+             };
+}
+
+@end

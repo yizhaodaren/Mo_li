@@ -1,0 +1,134 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliyunOSSiOS (2.7.1)
+  - Bugly (2.5.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - JCore (1.2.2)
+  - JPush (3.0.9):
+    - JCore (~> 1.2.0)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - M80AttributedLabel (1.6.3)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.6)
+  - NIMSDK_LITE (4.6.0)
+  - QIYU_iOS_SDK (4.1.0)
+  - ReactiveCocoa (2.1.4):
+    - ReactiveCocoa/Core (= 2.1.4)
+    - ReactiveCocoa/no-arc (= 2.1.4)
+  - ReactiveCocoa/Core (2.1.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.4)
+  - ReactiveViewModel (0.1.1):
+    - ReactiveCocoa (~> 2.1)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SensorsAnalyticsSDK/core (1.10.10)
+  - SensorsAnalyticsSDK/IDFA (1.10.10):
+    - SensorsAnalyticsSDK/core
+  - Toast (3.1.0)
+  - TZImagePickerController (1.7.9)
+  - UMengAnalytics (4.2.4)
+  - WechatOpenSDK (1.8.2)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.0)
+  - AliyunOSSiOS (~> 2.7.1)
+  - Bugly (~> 2.5.0)
+  - FMDB (~> 2.7.2)
+  - JPush (~> 3.0.5)
+  - LKDBHelper
+  - M80AttributedLabel (~> 1.6.3)
+  - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - NIMSDK_LITE (~> 4.6.0)
+  - QIYU_iOS_SDK (~> 4.1.0)
+  - ReactiveCocoa (= 2.1.4)
+  - ReactiveViewModel (= 0.1.1)
+  - SDWebImage (~> 4.3.3)
+  - SensorsAnalyticsSDK/IDFA
+  - Toast (~> 3.0)
+  - TZImagePickerController (~> 1.7.7)
+  - UMengAnalytics (~> 4.2.4)
+  - WechatOpenSDK (~> 1.8.2)
+  - YTKNetwork
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AliyunOSSiOS
+    - Bugly
+    - FMDB
+    - JCore
+    - JPush
+    - LKDBHelper
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - NIMSDK_LITE
+    - QIYU_iOS_SDK
+    - ReactiveCocoa
+    - ReactiveViewModel
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - Toast
+    - TZImagePickerController
+    - UMengAnalytics
+    - WechatOpenSDK
+    - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliyunOSSiOS: bc161047b15b04eb69ffd2481b73ab4a2275322c
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  JCore: f14c0549968a63c22e246a4875aa9d428446f373
+  JPush: 48041e8c5ad2ef9b48709eb0888af9640b36e9b0
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  M80AttributedLabel: d06543195d3e451d2ea62ad76d04aa9cea7661d4
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  NIMSDK_LITE: 8ae2e0db8e9dc5d62ffdd430ec4a910a484a33cd
+  QIYU_iOS_SDK: c127ee51f8eb810c79efeff04fae67be58b882da
+  ReactiveCocoa: 12072a1a4768b988f1f5a0a8c171c96bf021c2ff
+  ReactiveViewModel: 171492c2d30d3eb3c89730fd180c0f6a2ae7e774
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SensorsAnalyticsSDK: ee382dd3ff59b6788a535a29e23af45c42ed212f
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+
+PODFILE CHECKSUM: 517dfd1f25b86bc3e294023d484bca1961ddf236
+
+COCOAPODS: 1.5.3
